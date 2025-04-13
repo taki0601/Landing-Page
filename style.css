@@ -78,3 +78,32 @@ button {
   color: white;
   font-size: 18px;
 }
+
+/* article infomation */
+
+.information {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-box {
+  width: 150px;
+  height: auto;
+}
+
+.info-box img {
+  border-radius: 12px;
+}
+
+.info-box p {
+  overflow-wrap: break-word;
+}
