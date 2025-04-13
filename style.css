@@ -83,7 +83,7 @@ button {
 
 .information {
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   text-align: center;
   color: #1f2937;
   font-size: 36px;
@@ -98,6 +98,7 @@ button {
 .info-box {
   width: 150px;
   height: auto;
+  margin-bottom: 100px;
 }
 
 .info-box img {
@@ -106,4 +107,31 @@ button {
 
 .info-box p {
   overflow-wrap: break-word;
+}
+
+/* quote */
+
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.quote-box {
+  margin-top: 100px;
+  width: 1000px;
+  margin-bottom: 100px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-family: light italic;
+  color: #1f2937;
+}
+
+.author {
+  margin-right: 80px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
 }
